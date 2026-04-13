@@ -1,0 +1,79 @@
+body{
+    text-align: center;
+    background-color: bisque;
+}
+
+h1, h2 ,p{
+    text-align: center;
+}
+
+h2{
+border-bottom: 2px solid black;
+}
+
+
+
+p {
+    font-style: oblique;
+    font-size: larger;
+    text-decoration: dotted;
+}
+
+ul, nav {
+    display: inline-block;
+    width: 50%;
+    border: 4px outset #f08080;
+    text-align: center;
+}
+
+ul li {
+    margin: 4px;
+    border-bottom: 2px groove grey;
+    background-color: lightcyan;
+}
+
+ul #li2{
+    background-color: blueviolet;
+}
+
+a{
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 800;
+    color: brown;
+    text-decoration: none;
+}
+
+.img-container{
+    box-sizing: border-box;
+    margin: 1rem;
+    border: 10px outset black;
+    text-align: center;
+    width: 550px;
+    height: auto;
+
+
+}
+
+.img-container h1{
+    margin:0;
+    padding: 4px;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    color: brown;
+    border-bottom: 12px outset black;
+}
+
+#pizzabild {
+    height: 100%;
+    width:100%;
+    border: 2px outset greenyellow;
+}
+
+ol{
+    display: flex;
+}
+
+ol li{
+    background-color: beige;
+}
